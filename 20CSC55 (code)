@@ -1,0 +1,8 @@
+>library(readxl)
+> datafile <- read_excel("C:/Users/D kavi priya/Downloads/datafile.xls")
+> View(datafile)
+> mydata <- read_excel("C:/Users/D kavi priya/Downloads/datafile.xls")
+> mean(mydata$modal_price)
+[1] 13528.89
+> var(mydata$modal_price)
+[1] 55103699
